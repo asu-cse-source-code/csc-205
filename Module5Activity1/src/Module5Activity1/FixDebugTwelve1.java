@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Module5Activity1;
+
+// This class determines the logarithm of a number
+public class FixDebugTwelve1
+{
+  public static void main(String[] args) throws ArithmeticException
+  {
+     double num = -8.8, result;
+     try
+     {
+        if(num <= 0)
+           throw(new ArithmeticException());
+        result = Math.log(num);
+        System.out.println("Result is " + result);
+     }
+     catch(ArithmeticException e)
+     {
+       // System.out.println("Can't take logarithm for value of zero or lower");
+     }
+  }
+}

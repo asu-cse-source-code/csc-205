@@ -1,0 +1,13 @@
+.DS_Store
+*.xml
+build
+nbproject
+test
+*.mf
+*.html
+*.zip
+doc
+*.js
+*.css
+*.webarchive
+package-list
